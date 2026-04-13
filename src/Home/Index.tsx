@@ -23,7 +23,7 @@ type FiltroTipo = 'posiciones' | 'goleador' | 'asistencias' | 'amarillas' | 'ata
 const equiposMap: Record<string, string> = {
   "América de Cali SA": "america-de-cali",
   "CA Bucaramanga": "atletico-bucaramanga",
-  "Club Atlético Nacional SA": "atletico-nacional",
+  "Club Atletico Nacional SA": "atletico-nacional",
   "Club Deportes Tolima SA": "deportes-tolima",
   "Asociación Deportivo Cali": "deportivo-cali",
   "Deportivo Independiente Medellín": "independiente-medellin",

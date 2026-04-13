@@ -72,7 +72,7 @@ function Equipo() {
       <ul>
         <li>
           <a href={data.team.social.facebook} target="_blank" rel="noreferrer">
-            Facebook
+            Faceboook
           </a>
         </li>
         <li>
