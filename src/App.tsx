@@ -15,12 +15,14 @@ function App() {
   return (
 
     <Router>
-       
-      <Link to="/"><img src="https://es.pngtree.com/free-png-vectors/home-icon" /><p>Home</p></Link>
+       <nav className='c-menu'>
+              <Link to="/"><img src="https://es.pngtree.com/free-png-vectors/home-icon" /><p>Home</p></Link>
       <Link to="/favoritos"><img src="https://www.freepik.es/vector-premium/icono-favoritos-icono-corazon-vector-cuadrado-esquinas-redondeadas-elemento-concepto-ui-aplicaciones-tienda-linea-diseno-logotipos_20527459.htm" /><p>Favoritos</p></Link>
       <Link to="/original"><img src="https://media.istockphoto.com/id/1448912272/vector/soccer-ball-ico" /><p>Original</p></Link>
       <Link to="/informativa"><img src="https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/more-info-icon.png" /><p>Informativa</p></Link>    
       <Link to="/usuario"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNzXYh-X4wxX1jfbPywa8HWoNGDnx1Tlo0-g&s" /><p>Usuario</p></Link>
+
+       </nav>
 
       <Routes>
 
